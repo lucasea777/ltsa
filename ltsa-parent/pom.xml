@@ -10,7 +10,6 @@
 	<modules>
 		<module>../ltsa</module>
 		<module>../mscplugin</module>
-		<module>../reliabilityplugin</module>
 		<module>../stoch-fsp</module>
 		<module>../package</module>
 	</modules>

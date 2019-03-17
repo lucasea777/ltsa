@@ -40,11 +40,6 @@
 		</dependency>
 		<dependency>
 			<groupId>ltsa</groupId>
-			<artifactId>reliabilityplugin</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>ltsa</groupId>
 			<artifactId>stoch-fsp</artifactId>
 			<version>1.0.0</version>
 		</dependency>
@@ -98,7 +93,7 @@
 						</goals>
 						<configuration>
 							<stripVersion>true</stripVersion>
-							<includeArtifactIds>reliabilityplugin,mscplugin,backend</includeArtifactIds>
+							<includeArtifactIds>mscplugin,backend</includeArtifactIds>
 							<outputDirectory>${project.build.directory}/plugins</outputDirectory>
 						</configuration>
 					</execution>
